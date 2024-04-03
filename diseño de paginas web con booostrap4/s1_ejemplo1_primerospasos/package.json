@@ -4,8 +4,12 @@
   "description": "priemra entrada a este mundo",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": " "
   },
   "author": "edferoca",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
