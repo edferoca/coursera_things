@@ -1,0 +1,11 @@
+{
+  "name": "s1_ejemplo1_primerospasos",
+  "version": "1.0.0",
+  "description": "priemra entrada a este mundo",
+  "main": "index.html",
+  "scripts": {
+    "test": " "
+  },
+  "author": "edferoca",
+  "license": "ISC"
+}
