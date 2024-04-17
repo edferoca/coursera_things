@@ -41,95 +41,58 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item active" aria-current="page"><a href="./index.html">Home</a>  </li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="./Contact.html">Contacto</a>  </li>
         </ol>
       </nav>
+      <h1>Dejanos tus comentarios</h1>
+      <form action="">
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="apellido">Apellidos</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingrese sus apellidos">            
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electronico">  
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-9">
+            <label for="domicilio">Domicilio</label>
+            <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+          </div>
+          <div class="form-group col-sm-3">
+            <label for="departamento">Departamento</label>
+            <select name="" id="departamento" class="form-control">
+              <option selected>Bogota</option>
+              <option >Cundinamarca</option>
+              <option >Boyaca</option>
+              <option >Santander</option>
+              <option >Tolima</option>
+            </select>           
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="" id="comentario"  rows="10" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="gridCheck">
+            <label for="gridCheck" class="form-check-label">
+              Quiero que me contacten
+            </label>
 
-      <div class="d-flex">
-        <div class = "col-sm-4">
-          <p> 
-            <h3>¿como funciona?</h3>
-            <p>busca hoteles segun lo que queiras</p>
-          </p>
-        </div>
-        <div class = "col-sm-4">
-          <p> 
-            <h3>¿Donde reservar?</h3>
-            <p>busca hoteles segun lo que queiras</p>
-          </p>
-        </div>
-        <div class = "col-sm-4">
-          <p> 
-            <h3>¿como pago?</h3>
-            <p>pagalo que queiras</p>
-          </p>
-        </div>
-      </div>
-      <hr>
-      <div class ="d-flex flex-wrap flex-row-reverse">
-        <div class = "col-sm-3 card-hotel d-flex flex-column">
-          <div>
-            <h3>Hotel barcelona</h3>
-            <p>hotel1</p>
-          </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-add-icon" title="icon name" aria-hidden="true"></span>Reservar</button>
           </div>
         </div>
-        <div class = " card-hotel d-flex flex-column">
-          <div>
-            <h3>Hotel portugal</h3>
-            <p>hotel2</p>
-          </div>
-          <div>
-            <button class="btn btn-reserva">Reservar</button>
-          </div>
-        </div>
-        <div class = " card-hotel d-flex flex-column">
-          <div>
-            <h3>Hotel bogota</h3>
-            <p>hotel3</p>
-          </div>
-          <div>
-            <button class="btn btn-reserva">Reservar</button>
-          </div>
-        </div>
-        <div class = " card-hotel d-flex flex-column">
-          <div>
-            <h3>Hotel Praga</h3>
-            <p>hotel4</p>
-          </div>
-          <div>
-            <button class="btn btn-reserva">Reservar</button>
-          </div>
-        </div>
-        <div class = " card-hotel d-flex flex-column">
-          <div>
-            <h3>Hotel paris</h3>
-            <p>hotel5</p>
-          </div>
-          <div>
-            <button class="btn btn-reserva">Reservar</button>
-          </div>
-        </div>
-        <div class = " card-hotel d-flex flex-column">
-          <div>
-            <h3>Hotel moscu</h3>
-            <p>hotel6</p>
-          </div>
-          <div>
-            <button class="btn btn-reserva">Reservar</button>
-          </div>
-        </div>
-        <div class = " card-hotel d-flex flex-column">
-          <div>
-            <h3>Hotel sidney</h3>
-            <p>hotel7</p>
-          </div>
-          <div>
-            <button class="btn btn-reserva">Reservar</button>
-          </div>
-        </div>
-      </div> 
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    
+
+     
     </div>   
     <footer>
       <div class = "row">
