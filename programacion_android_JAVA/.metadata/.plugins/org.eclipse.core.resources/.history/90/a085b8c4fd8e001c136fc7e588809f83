@@ -1,0 +1,8 @@
+package com.edferoca.netflix;
+
+public interface IVisualizabl {
+	public void marcarVisto() ;
+	public boolean esVisto();
+	
+	public int tiempoVisto() ;
+}

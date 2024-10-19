@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.Edferoca.clases.Telefono"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.edferoca.polimorfismo.ropa"/>
+    <fullyQualifiedTypeName name="com.edferoca.polimorfismo.chaquetas"/>
+    <fullyQualifiedTypeName name="com.edferoca.interfaces.Telefono"/>
+    <fullyQualifiedTypeName name="com.edferoca.interfaces.IDevolucion"/>
+    <fullyQualifiedTypeName name="com.edferoca.netflix.Entretenimiento"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;interfaces/src/com.edferoca.interfaces&apos;&#x0A;- Original project: &apos;Herencia y polimorfismo&apos;&#x0A;- Destination element: &apos;interfaces/src/com.edferoca.interfaces&apos;&#x0A;- Original elements:&#x0A;     com.edferoca.polimorfismo.camisas.java&#x0A;     com.edferoca.polimorfismo.chaquetas.java&#x0A;     com.edferoca.polimorfismo.ropa.java" description="Copy compilation units" destination="=interfaces/src&lt;com.edferoca.interfaces" element1="/src&lt;com.edferoca.polimorfismo{camisas.java" element2="/src&lt;com.edferoca.polimorfismo{chaquetas.java" element3="/src&lt;com.edferoca.polimorfismo{ropa.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1634810131954" units="3" version="1.0"/>
+</session>

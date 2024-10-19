@@ -1,0 +1,66 @@
+package com.edferoca.netflix;
+
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pelicula[] Peliculas=new Pelicula[5];
+		Serie[] Series= new Serie[5]; 
+		
+		//llenando los arreglos de Peliculas y Series
+		Peliculas[0]= new Pelicula("el dia despues de mañana", "este señor que no se como se llama");
+		Peliculas[1]= new Pelicula("soy Leyenda","Drama","jhon mulik",120,2008);
+		Peliculas[2]= new Pelicula("TiTanic", "un director");
+		Peliculas[3]= new Pelicula("AVATAR","wiii","otro director",220,2010);
+		Peliculas[4]= new Pelicula("jumanji", "paco");
+		Series[0]= new Serie("Lie To me", "este señor que no se como se llama");
+		Series[1]= new Serie("The Oficce","Comedia","jhon mulik",120,2008,8);
+		Series[2]= new Serie("supermarket", "un director");
+		Series[3]= new Serie("Boba Feet","wiii","otro director",220,2010,1);
+		Series[4]= new Serie("Betty la fea", "sigifredo");
+		
+		//marcando series y peliculas como vistas
+		Series[0].marcarVisto();
+		Series[2].marcarVisto();
+		Peliculas[1].marcarVisto();
+		Peliculas[3].marcarVisto();
+		Peliculas[2].marcarVisto();
+		
+		//muestro la lista de peliculas vistas
+		System.out.println("peliculas ya vistas ");
+		for(int i=0; i<=4 ;i++) {
+			if(Peliculas[i].esVisto()==true){
+				System.out.println("*"+Peliculas[i].getTitulo()+ "* del director " + Peliculas[i].getCreador());
+			}
+		}
+		System.out.println("Series ya vistas ");
+		for(int i=0; i<=4 ;i++) {
+			if(Series[i].esVisto()==true){
+				System.out.println("*"+Series[i].getTitulo()+ "* del director " + Series[i].getCreador());
+			}
+		}
+		//muestro la serie con mas temporadas
+		int SerieMasTemporadas=0;
+		int NumTemporadas=0;
+		for(int i=0; i<=4 ;i++) {
+			if(Series[i].getTemporadas()>NumTemporadas){
+				SerieMasTemporadas=i;
+				NumTemporadas=Series[i].getTemporadas();
+			}
+		}
+		System.out.println(Series[SerieMasTemporadas].toString());
+		//muestro la Pelicula mas reciente
+		int peliculaMasReciente=0;
+		int AñoReciente=0;
+		for(int i=0; i<=4 ;i++) {
+			if(Peliculas[i].getAño() >AñoReciente){
+				peliculaMasReciente=i;
+				AñoReciente=Peliculas[i].getAño();
+			}
+		}
+		System.out.println(Peliculas[peliculaMasReciente].toString());
+	}
+
+}

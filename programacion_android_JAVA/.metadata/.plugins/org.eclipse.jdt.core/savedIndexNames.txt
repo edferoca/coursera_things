@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+E:\edferoca\Coursera\programacion_android_JAVA\.metadata\.plugins\org.eclipse.jdt.core
+715609595.index
+1181350270.index
+4035057007.index
+2578168648.index
+3918053750.index
+435225591.index

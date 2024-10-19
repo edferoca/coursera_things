@@ -1,0 +1,5 @@
+package com.edferoca.netflix;
+
+public interface IVisualizabl {
+
+}

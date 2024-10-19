@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Telefono.java&apos; to &apos;interfaces/src/com.edferoca.interfaces&apos;&#x0A;- Original project: &apos;modificadores de axeso&apos;&#x0A;- Destination element: &apos;interfaces/src/com.edferoca.interfaces&apos;&#x0A;- Original element: &apos;com.edferoca.modAcces.Telefono.java&apos;" description="Copy compilation unit" destination="=interfaces/src&lt;com.edferoca.interfaces" element1="/src&lt;com.edferoca.modAcces{Telefono.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1634810102652" units="1" version="1.0"/>
+</session>
