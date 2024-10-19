@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!--Bootstap css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" >
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    
+  </head>
+  <body>
+    <nav class = "navbar navbar-expand-md navbar-dark bg-dark  fixed-top">
+      <a class="navbar-brand" href="#"> Hoteles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item "><a class="nav-link" href="./Nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+          <li class="nav-item "><a class="nav-link" href="#">Terminos y condiciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="./Contact.html">Contacto</a></li>
+        </ul>
+      </div>
+      
+    </nav>
+    <div class = "jumbotrom">
+      <h1>Hoteles</h1>
+    </div>
+    <div class = "continer">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page"><a href="./index.html">Home</a>  </li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="./Contact.html">Contacto</a>  </li>
+        </ol>
+      </nav>
+      <h1>Dejanos tus comentarios</h1>
+      <form action="">
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="apellido">Apellidos</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingrese sus apellidos">            
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electronico">  
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-9">
+            <label for="domicilio">Domicilio</label>
+            <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+          </div>
+          <div class="form-group col-sm-3">
+            <label for="departamento">Departamento</label>
+            <select name="" id="departamento" class="form-control">
+              <option selected>Bogota</option>
+              <option >Cundinamarca</option>
+              <option >Boyaca</option>
+              <option >Santander</option>
+              <option >Tolima</option>
+            </select>           
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="" id="comentario"  rows="10" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="gridCheck">
+            <label for="gridCheck" class="form-check-label">
+              Quiero que me contacten
+            </label>
+
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    
+
+     
+    </div>   
+    <footer>
+      <div class = "row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="http://www.facebook.com">Facebook</a>
+          <a href="http://www.twitter.com">Twitter</a>
+          <a href="http://www.instagram.com">Instagram</a>
+        </div>
+        <div class="col-sm-4">
+          <address>
+            <h3>Ubicanos</h3>
+            <p><span class="oi oi-home footer-add-icon" title="icon name" aria-hidden="true"></span>pepito peres pepin</p>
+            <p><span class="oi oi-phone footer-add-icon" title="icon name" aria-hidden="true"></span>+415415455</p>
+            <p><span class="oi oi-inbox footer-add-icon" title="icon name" aria-hidden="true"></span>boon@pagtuto.mail.com</p>
+          </address>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <p>este espacio es para mas cosas de  interes</p>
+        </div>
+      </div>
+    </footer>
+  
+  </body>
+</html>

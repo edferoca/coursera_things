@@ -1,0 +1,23 @@
+{%extends 'base.html'%}
+{% import 'macros.html' as macros %}
+{% block title %}
+    {{super()}}
+    welkome To flask projects
+{% endblock %}
+
+{% block contenido %}
+
+    {% if user_ip %}
+    <h2> Hola mira esta es tu direccion ip actual {{user_ip}}</h2>
+    {%else %} 
+    <a href="{{url_for('index')}}"> Crear cookie</a>
+    {% endif %}
+
+    <ul>
+    {%for item in lista %}
+        {{macros.rendeer_items(item)}}
+    {%endfor%}
+
+    </ul>
+
+{%endblock%}

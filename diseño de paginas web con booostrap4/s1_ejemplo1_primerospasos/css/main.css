@@ -1,0 +1,28 @@
+.jumbotrom {
+    margin-top: 70px;
+    background-color: yellow;
+    color: black;
+}
+.btn {
+    background-color: rgb(0, 19, 128);
+}
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: yellow;
+    margin-bottom: 0px;
+    margin-top: 10px ;
+}
+.card-hotel{
+    flex: 1 200px;
+    
+    margin-top: 10px;
+}
+.btn-reserva{
+    width: 100%;
+    border-radius: 0px;
+    
+}
+
+.footer-add-icon  {
+    padding-right: 10px;
+}
