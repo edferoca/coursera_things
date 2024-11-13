@@ -1,7 +1,10 @@
 from flask import Flask,  request, make_response, redirect, render_template
 
+
 #instancio el termino FLask que esta dirigido al archivo, en este caso al main.py (__name__)
 app = Flask(__name__)
+
+
 items=["elemtno 1", "elemento 2", "elemento 3"]
 
 #url que puntan a objetos (llamados de funcion) python  y que seran vistos por el cliente
